@@ -6,4 +6,4 @@ metadata:
   annotations:
     flux.weave.works/automated: "true"
   name: nginx
-  namespace: demo
+  namespace: demo1
