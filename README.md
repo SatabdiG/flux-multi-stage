@@ -103,6 +103,7 @@ Viola any further changes to our deployment should be auto picked up and redeplp
 ```
    
 
+Note: For purposes of this demo, we use `kustomize` reconciliation which is a custom resource that specifies a set of kubenetes resources that Flux is supposed to reconcile in the cluster. Likewise Helm and bucket can also be used.
 
 ## Debugging 
 
