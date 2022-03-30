@@ -107,7 +107,7 @@ Note: For purposes of this demo, we use `kustomize` reconciliation which is a cu
 
 ## Debugging 
 
-So something has gone. Luckily it's easy to debug.
+So something has gone wrong. Luckily it's easy to debug.
 
 Check the logs for the flux pods in the flux namespace via : ` kubectl logs <pod-name> -n flux`. There can be messages because of rate limiting of docker hub ignore those and look for messages that show flux operator mirroring and pulling from the VCS. A common error is invalid/incorrect credentials.
 
